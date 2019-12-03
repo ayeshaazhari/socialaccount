@@ -1,0 +1,6 @@
+<p>login works!</p>
+<button (click)=login() *ngIf=!user>Login</button>
+<button (click)=logout() *ngIf=user>Logout</button>
+
+<button (click)=fblogin() *ngIf="!user" >fb Login</button>
+{{user | json}}
