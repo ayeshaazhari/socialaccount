@@ -18,7 +18,7 @@ import { SocialserviceService } from './socialservice.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseconfig ,"firebaseconfig"),
+    AngularFireModule.initializeApp(environment.firebaseconfig ,"firebaseconfig1"),
     AngularFireAuthModule
   ],
   providers: [
